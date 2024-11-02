@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: #333;
+        }
+
+        /* Container Styling */
+        .container {
+            background-color: #ffffff;
+            width: 320px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Title Styling */
+        h2 {
+            color: #f5576c;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        /* Input Field Styling */
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid #f093fb;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        /* Add Button Styling */
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #f5576c;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff6b81;
+        }
+
+        /* Task List Styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        /* Task Item Styling */
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f093fb;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+        }
+
+        li:hover {
+            background-color: #ff6b81;
+        }
+
+        /* Completed Task Styling */
+        li.completed {
+            text-decoration: line-through;
+            background-color: #ddd;
+            color: #666;
+        }
+
+        /* Delete Button Styling */
+        .delete {
+            color: #ff6b81;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .delete:hover {
+            color: #f5576c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
+    
+
+    <!-- Link to external JavaScript file -->
+    <script src="todo.js"></script>
+</body>
+</html>

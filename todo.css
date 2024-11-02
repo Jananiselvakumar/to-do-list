@@ -1,0 +1,11 @@
+/* Assuming you have a class 'delete-button' for the delete button */
+.delete-button {
+    /* ... other styles ... */
+    text-decoration: none; /* Remove strike-through */
+  }
+  
+  /* To ensure the delete button remains visible even when the checkbox is checked */
+  .task-item.completed .delete-button {
+    /* ... specific styles for completed tasks ... */
+    opacity: 1; /* Ensure visibility */
+  }
