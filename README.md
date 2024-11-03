@@ -39,10 +39,6 @@ Contributions are welcome! Please fork this repository, make your changes, and s
 
 
 
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
+##Contact
 
 Created by Jananiselvakumar - feel free to reach out if you have any questions or feedback!
