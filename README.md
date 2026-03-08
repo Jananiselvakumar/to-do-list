@@ -15,6 +15,6 @@ Mark as complete: Click the checkbox next to a task to mark it as complete.
 
 Delete a task: Click the delete button next to a task to remove it from the list.
 
-##Contact
+## Contact
 
 Created by Jananiselvakumar - feel free to reach out if you have any questions or feedback!
