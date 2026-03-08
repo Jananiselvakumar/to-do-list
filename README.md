@@ -1,4 +1,3 @@
-# to-do-list
 # To-Do List
 
 A simple and efficient To-Do List application that helps you manage and organize your daily tasks effectively. With this website, you can add, delete, and mark tasks as complete to stay productive and organized.
